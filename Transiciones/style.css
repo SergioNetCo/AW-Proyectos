@@ -1,0 +1,156 @@
+
+
+html {
+    font-family: serif;
+}
+
+/* FILAS */
+
+.fila1 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fila2 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fila3 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* FILA 1 */
+
+.caja1rotativa {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    transition: ease 2s;
+    margin: 10px
+}
+
+.caja1rotativa:hover {
+    transform: rotateY(180deg) rotateX(360deg);
+    background-color: red;
+    background-size: cover;
+    background-attachment: fixed;
+    color: red;
+}
+
+
+.caja2gradient {
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 10px
+}
+
+.caja2gradient:hover {
+    /* background-image: linear-gradient(angulo en deg, color1, color2); */
+    /* Los angulos pueden ser: 
+        - to right/left
+        - to bottom right/left
+        - to top right/left
+        - Angulos de 0 a 360 deegres
+    */ 
+    background-image: linear-gradient(to top right , rgb(0, 68, 255), rgba(165, 30, 243, 0.87));
+}
+
+.caja3sombras {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 10px
+}
+
+.caja3sombras:hover {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    /* Dependiendo de los px (pixeles) que se pongan en la tercera fila (20px) se pondra mas borroso el fondo o no */
+    box-shadow: 10px 10px 20px grey;
+}
+
+/* FILA 2 */
+
+.caja4modificada {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    border-radius: 40% 40% 85% 85%;
+    margin: 10px
+}
+
+.caja5boton {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    transition-duration: 0.5s;
+    margin: 10px
+}
+
+.caja5boton a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.caja5boton:hover {
+    background-color: white;
+}
+
+.caja6movimiento {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    transition: linear 1s;
+    margin: 10px
+}
+
+.caja6movimiento:hover {
+    width: 300px;
+    height: 85px;
+}
+
+.carta7imagen {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 10px
+}
+
+.carta7imagen > img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.carta8 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 10px
+}
+
+.carta9 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 10px
+}
